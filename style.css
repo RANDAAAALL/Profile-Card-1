@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+
+}
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+.head-container ul {
+    display: flex;
+    list-style-type: none;
+
+}
+.head-container a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+.head-container li {
+    margin: 8px 14px;
+}
+.head-container a:hover {
+    border-bottom: 2px solid black;
+}
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 115px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-top:  210px;
+}
+.PROF-TITLE {
+    margin-top: 400px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+#prof-headings {
+    margin: 0px 10px 0px 0px;
+}
+.card {
+    background-color: rgba(20, 20, 21, 0.914);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    height: 360px;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10px;
+}
+.SKILLS {
+    margin-top: 75px;
+    text-align: center;
+
+}
+.SKILLS h2 {
+    margin-left: 16px;
+    font-size: 1.4em;
+}
+.SKILLS li{
+    list-style-type: none;
+    font-size: 1.1em;
+    color: white;
+}
+.HOBBIES {
+    margin-top: 75px;
+    text-align: center;
+}
+.HOBBIES h2 {
+    font-size: 1.4em;
+}
+.HOBBIES li {
+    list-style-type: none;
+    font-size: 1.1em;
+    color: white;
+}
+.LINE {
+    border: 1px solid white ;
+    height: 75px;
+    margin: 105px 0px 0px 15px;
+}
+.socials {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 280px 4px 0px 0px;
+}
+.socials i {
+    font-size: 24px;
+}
+.fa-instagram {
+    color: #E9457A;
+}
+.fa-facebook {
+    color: #4064AC;
+}
+.fa-twitter {
+    color: #43A2F3;
+}
+@media screen and (max-width: 425px) {
+    .head-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .head-container li {
+        margin: 8px 25px;
+      }
+}
+@media screen and (max-width: 320px) {
+    .head-container {
+      flex-direction: column;
+      align-items: center;
+      width: 350px;
+      overflow: hidden;
+    }
+  
+    .head-container li {
+      margin-top: 8px;
+      font-size: 1em;
+      
+    }
+    .card {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 330px;
+        height: 360px;
+        margin: 100px 10px;
+    }
+    .PROF-TITLE {
+        margin: 410px 0px 0px 30px;
+    }
+    img {
+        margin-left: 40px;
+    }
+    .socials {
+      margin: 200px 5px 0px 0px;
+    }
+}
+  
+@media screen and (max-width: 375px) {
+    .head-container {
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+    }
+  
+    .head-container li {
+      margin: 8px 25px;
+    }
+    
+    .socials {
+      margin: 240px 4px 0px 0px;
+    }
+}
+  
+@media screen and (max-width: 414px) {
+    .head-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .head-container li {
+      margin: 8px 25px;
+    }
+    
+    .socials {
+      margin: 260px 4px 0px 0px;
+    }
+}
+
+
+    
